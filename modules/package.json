@@ -1,0 +1,26 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "modules hw",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development",
+    "lint": "eslint .",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annmartyn/modules-hw.git"
+  },
+  "author": "annmartyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annmartyn/modules-hw/issues"
+  },
+  "homepage": "https://github.com/annmartyn/modules-hw#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5"
+  }
+}
